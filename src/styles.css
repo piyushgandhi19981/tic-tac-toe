@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.game-board {
+  width: calc(var(--length) * 100px);
+  display: grid;
+  grid-template-columns: repeat(var(--length), 1fr);
+  margin-top: 24px;
+}
+
+.board-button {
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  max-width: calc(var(--length) * 100px) !important;
+  justify-content: space-between;
+  align-items: center;
+}
